@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9deeddfe787b049a976ac6ba850dcf, type: 3}
+  m_Name: Wall Pattern New
+  m_EditorClassIdentifier: 
+  obstacles:
+  - objectType: 0
+    posOffset: 0
+    rotationOffset: 30
+    rotationRandomness: 0
+    rotationRepeating: 3
+    rotationRepeatingUntil: 75
+  - objectType: 0
+    posOffset: 0
+    rotationOffset: -30
+    rotationRandomness: 0
+    rotationRepeating: 3
+    rotationRepeatingUntil: -75
+  - objectType: 0
+    posOffset: 13
+    rotationOffset: 90
+    rotationRandomness: 0
+    rotationRepeating: 6
+    rotationRepeatingUntil: 180
+  - objectType: 0
+    posOffset: 13
+    rotationOffset: -90
+    rotationRandomness: 0
+    rotationRepeating: 6
+    rotationRepeatingUntil: -180
+  - objectType: 1
+    posOffset: 0
+    rotationOffset: 0
+    rotationRandomness: 0
+    rotationRepeating: 0
+    rotationRepeatingUntil: 0
+  - objectType: 1
+    posOffset: 0
+    rotationOffset: 165
+    rotationRandomness: 0
+    rotationRepeating: 2
+    rotationRepeatingUntil: 195
+  - objectType: 1
+    posOffset: 13
+    rotationOffset: -15
+    rotationRandomness: 0
+    rotationRepeating: 2
+    rotationRepeatingUntil: 15
